@@ -8,7 +8,7 @@ authors = [
 requires-python = ">=3.10"
 dependencies = [
     "arxiv>=2.2.0",
-    "asyncio>=3.4.3",
+    "asyncio",
     "click",
     "mcp[cli]>=1.9.1",
     "openai",
@@ -25,15 +25,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.ruff]
-line-length = 88
+line-length = 95
 target-version = "py312"
-select = ["E", "F", "I", "N", "W"]
-ignore = []
-
-[tool.ruff.isort]
-known-first-party = ["poster_to_markdown"] 
+lint.select = ["E", "F", "I", "N", "W"]
+lint.ignore = []
 
 [dependency-groups]
 dev = [
-    "ruff>=0.11.11",
+    "ruff",
 ]
