@@ -33,4 +33,5 @@ lint.ignore = []
 [dependency-groups]
 dev = [
     "ruff",
+    "twine>=6.1.0",
 ]

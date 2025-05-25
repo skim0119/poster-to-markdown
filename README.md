@@ -1,6 +1,6 @@
 # Poster to Markdown CLI
 
-A powerful command-line tool that converts research poster images into well-structured markdown summaries. It leverages OpenAI's Vision API for intelligent content extraction and includes ArXiv integration for finding related research papers.
+A command-line tool that converts research poster images into well-structured markdown summaries. It leverages OpenAI's API for intelligent content extraction and ArXiv integration for finding related research papers.
 
 ## Features
 
@@ -8,7 +8,6 @@ A powerful command-line tool that converts research poster images into well-stru
 - **ArXiv Integration**: Search for related papers and automatically include them in summaries
 - **Multiple Formats**: Support for various image formats including HEIC
 - **Batch Processing**: Process entire directories of poster images
-- **Standalone ArXiv Search**: Search ArXiv papers with advanced filtering
 
 ## Installation
 
@@ -22,6 +21,8 @@ export OPENAI_API_KEY="your_api_key_here"
 ```
 
 ## Usage
+
+> Currently, we support png, jpeg, and heic image formats.
 
 ### Process Posters
 
