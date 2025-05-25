@@ -2,7 +2,15 @@ POSTER_PROMPT = """This is a research poster. Provide a markdown summary with:
 
 #<tag1> #<tag2> #<tag3>
 choose from:
-Always add: #poster
+    topic/soft-robot,
+    topic/multi-agent,
+    topic/reinforcement-learning,
+    topic/immitation-learning,
+    topic/manipulation,
+    topic/HRI,
+    topic/EMG/EEG/EMG/MEG,
+    topic/unknown
+Always add: #poster #ICRA2025
 
 Search Strategy for Finding Related Papers:
 1. First, search using Author's name and the poster title, breaking it into key technical terms
@@ -54,6 +62,10 @@ tag:
 - Potential Applications: <Where could this work be applied, if specified in the poster.>
 - Industry Relevance: <Any industry connections or potential, if specified in the poster.>
 - Broader Impact: <Broader impact on the field, if specified or mentioned in the poster.>
+
+## Few remarks
+<Any relation back to my research: soft robot, slender robot, SNN, neuromorphic computing,
+ multi-agent RL problem>
 
 # URL
 <Arxiv link of the paper for the poster>
