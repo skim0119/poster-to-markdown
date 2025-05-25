@@ -6,6 +6,21 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+.*.swp
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.heic
+*.heif
+*.webp
+*.gif
+
+# Text file
+*.md
+
 # Distribution / packaging
 .Python
 build/
