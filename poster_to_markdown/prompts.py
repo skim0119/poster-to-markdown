@@ -1,8 +1,8 @@
 POSTER_PROMPT = """This is a research poster. Provide a markdown summary with:
 
 #<tag1> #<tag2> #<tag3>
-choose from:
-Always add: #poster
+choose from: #topic/electrophysiology #topic/MEA #topic/devices #topic/neuromorphic-computing
+Always add: #poster #SFN2024
 
 Search Strategy for Finding Related Papers:
 1. First, search using Author's name and the poster title, breaking it into key technical terms
