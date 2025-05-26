@@ -24,6 +24,8 @@ export OPENAI_API_KEY="your_api_key_here"
 
 > Currently, we support png, jpeg, and heic image formats.
 
+One can customize the prompt by modifying `poster_to_markdown/prompts.py`.
+
 ### Process Posters
 
 Convert poster images to markdown summaries:
@@ -33,5 +35,10 @@ Convert poster images to markdown summaries:
 poster-to-markdown -f poster.jpg
 
 # Process entire directory
-poster-to-markdown -d /path/to/posters
+poster-to-markdown -d /path/to/posters -o /path/to/output
 ```
+
+### Note
+
+The amount of token it takes to process a poster is around 1k-10k for input and 3k-10k for output.
+This number may vary depending on the size and detail of the poster image or the model used.
